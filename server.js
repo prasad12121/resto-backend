@@ -67,4 +67,7 @@ io.on("connection", (socket) => {
 //const PORT = process.env.PORT || 5001;
 //server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-module.exports =app;
+// Start server only if running locally (optional)
+
+// ✅ Use ES Module export
+export default app;
