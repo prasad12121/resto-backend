@@ -40,7 +40,7 @@ const server = http.createServer(app);
 // Socket.IO server
 export const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://resto-backend-nine.vercel.app", // your frontend URL
     methods: ["GET", "POST", "PUT"],
   },
 });
