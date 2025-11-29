@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: "*", // your frontend URL
+  origin: "https://resto-backend-nine.vercel.app", // your frontend URL
   credentials: true
 }));
 
