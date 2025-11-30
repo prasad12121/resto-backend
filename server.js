@@ -23,7 +23,7 @@ const app = express();
 // Allowed origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://restoree-frontend.vercel.app"
+  "https://resto-frontend-ten.vercel.app"
 ];
 
 // -------------------------
